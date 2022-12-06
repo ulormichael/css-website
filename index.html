@@ -1,122 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="Roboto/css/all.css">
+    <link rel="stylesheet" href="Roboto/css/all.css" />
   </head>
-
   <body>
-    <nav class="main-banner">
-      <div class="nav-container">
-        <div class="nav">
-          <a class="logo" href="logo"
-            ><img
-              src="images/logo.png"
-              alt="startup.logo"
-              weight="150"
-              height="120"
-          /></a>
-        </div>
-        <div class="nav-items">
-          <ul class="links">
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="index.html">Home</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div id="main-placeholder">
-        <div class="placeholder">
-          <h1>WELCOME TO MY<br/>PORTFOLIO SITE</h1>
+    <header>
+      <nav>
+        <img src="images/logo.png" alt="logo" width="150" height="120" />
+        <menu>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Home</a></li>
+        </menu>
+      </nav>
+      <section id="banner">
+        <aside>
+          <h1>WELCOME TO MY<br />PORTFOLIO SITE</h1>
           <p>
             This website has some subtext that goes here under the <br />
             main title. It's a smaller font and the color is lower<br />
             contrast
           </p>
+          <button>Sign Up</button>
+        </aside>
+        <div>
+          <img src="images/pic0.jpeg" alt="banner" width="550" />
+        </div>
+      </section>
+    </header>
+    <main class="container">
+      <h2>Some of my designs</h2>
+      <section>
+        <div id="main-container">
+          <figure>
+            <img src="images/pic1.jpg" alt="pic" width="250" />
+            <figcaption>
+              <p>
+                this is some subtext <br />
+                under an illustration <br />
+                or image
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/pic2.jpeg" alt="pic" width="250" />
+            <figcaption>
+              <p>
+                this is some subtext <br />
+                under an illustration <br />
+                or image
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/pic3.jpeg" alt="pic" width="250" />
+            <figcaption>
+              <p>
+                this is some subtext <br />
+                under an illustration <br />
+                or image
+              </p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/pic4.jpeg" alt="pic" width="250" />
+            <figcaption>
+              <p>
+                this is some subtext <br />
+                under an illustration <br />
+                or image
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="grey-bg">
+        <blockquote>
+          <em
+            >This is an inspiring quote, or a testimonial from a <br />
+            customer. Maybe it's just filling up space, or maybe <br />
+            people will actually read it. Who knows? All i know <br />
+            is that it looks nice. <br
+          /></em>
+        </blockquote>
+        <cite>-Thor</cite>
+      </section>
+      <section class="green-bg">
+        <div>
+          <h3>Call to action it's time!</h3>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div id="btn">
           <button type="button">Sign Up</button>
         </div>
-        <div class="image-placeholder">
-          <a href="banner"><img src="images/pic0.jpeg" width="550" /></a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container">
-      <h1>Some of my designs</h1>
-    </div>
-    <div id="main-container">
-      <div class="rows">
-        <img src="images/pic1.jpg" alt="image" width="200" />
-        <div class="card-block">
-          <p class="card-text">
-            this is some subtext <br />
-            under an illustration <br />
-            or image
-          </p>
-        </div>
-      </div>
-
-      <div class="rows">
-        <img src="images/pic2.jpeg" alt="image" width="200" />
-        <div class="card-block">
-          <p class="card-text">
-            this is some subtext <br />
-            under an illustration <br />
-            or image
-          </p>
-        </div>
-      </div>
-
-      <div class="rows">
-        <img src="images/pic3.jpeg" alt="image" width="200" />
-        <div class="card-block">
-          <p class="card-text">
-            this is some subtext <br />
-            under an illustration <br />
-            or image
-          </p>
-        </div>
-      </div>
-
-      <div class="rows">
-        <img src="images/pic4.jpeg" alt="image" width="200" />
-        <div class="card-block">
-          <p class="card-text">
-            this is some subtext <br />
-            under an illustration <br />
-            or image
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div id="grey-bg">
-      <em
-        >This is an inspiring quote, or a testimonial from a <br />
-        customer. Maybe it's just filling up space, or maybe <br />
-        people will actually read it. Who knows? All i know <br />
-        is that it looks nice. <br />
-        <p>-Thor</p>
-      </em>
-    </div>
-
-    <div id="blue-bg">
-      <div class="blue-bg-2">
-        <h2>Call to action it's time!</h2>
-        <p>Sign up for our product by clicking that button right over there!</p>
-      </div>
-      <div id="btn">
-        <button type="button">Sign Up</button>
-      </div>
-    </div>
-
+      </section>
+    </main>
     <footer id="footer">
       <div class="copyright">
-        <p> &copy; Copyright 2022 | All Right Reserved | Designed by Ulorseries</p>
+        <p>
+          &copy; Copyright 2022 | All Right Reserved | Designed by Ulorseries
+        </p>
       </div>
     </footer>
   </body>
